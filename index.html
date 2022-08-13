@@ -22,12 +22,13 @@
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#one" class="active">About Me</a></li>
 						<li><a href="#two">Education</a></li>
-						<li><a href="#three">Researches</a></li>
-						<li><a href="#extra">Selected Projects</a></li>
+						<li><a href="#three">Work</a></li>
+						<li><a href="#four">Research</a></li>
+						<li><a href="#extra">Project</a></li>
 						<!-- <li><a href="#gallery">Gallery</a></li> -->
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#five">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
@@ -167,10 +168,35 @@
 								</div>
 							</section>
 
-						<!-- Three -->
-							<section id="three">
+							<!-- Three -->
+							<section id = "three">
 								<div class="container">
-									<h3>Research Projects</h3>
+									<h3>Work Experience</h3>
+									<div class="features">
+										<article>
+											<a class="image fit thumb">
+												<img src="images/work/intel_cover.png" alt="" />
+											</a>
+											<div class="inner">
+												<h4>Intel Corporation</h4>
+												<h5>Deep Learning Software Engineer Intern</h5>
+												<p>
+													[<a href="https://github.com/intel-analytics/analytics-zoo">repo</a>]
+												</p>
+												<ul>
+													<li>Built the recommender system on WeChat dataset to predict user actions such as likes and comments.</li>
+													<li>Encapsulated PySpark RDD operations into Friesian to develop distributed recommender system for big data.</li>
+													<li>Optimized DLRM data preprocessing on Twitter dataset by adapting Spark join strategies.</li>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Research Experience</h3>
 									<p>I've participated in research projects related to Machine Learning Serving Systems and Machine Learning with Large Datasets. </p>
 									<div class="features">
 										<article>
@@ -214,13 +240,85 @@
 									</div>
 								</div>
 							</section>
+
 							<section id = "extra">
 								<div class="container">
 									<h3>Selected Projects</h3>
-<div class="features">
+									<div class="features">
 										<article>
 											<a class="image fit thumb">
-												<img src="images/projects/442-cover.png" alt="" />
+												<img src="images/projects/470_cover.png" alt="" />
+											</a>
+											<div class="inner">
+												<h4>3-Way Superscalar R10K-Style Out-of-Order Microprocessor</h4>
+												<p>
+													[<a href="files/eecs_470_final_project_report.pdf">Paper</a>]
+													[<a href="files/eecs_470_final_project_pre.pdf">Slides</a>]
+												</p>
+												<ul>
+													<li>Designed, built, and synthesized a 3-way scaled processor in Verilog with out-of-order instruction execution, register renaming, prefetcher, GShare BP and BTB to support 32 bits RV32IM ISA.</li>
+											</div>
+										</article>
+									</div>
+
+									<div class="features">
+										<article>
+											<a class="image fit thumb">
+												<img src="images/projects/491_cover.png" alt="" />
+											</a>
+											<div class="inner">
+												<h4>Distributed and Fault-Tolerant Key/Value Services</h4>
+												<ul>
+													<li>Built a sharded storage system in Golang using consistent hashing to support intensive Get, Put and Append RPC requests.</li>
+													<li>Implemented Paxos replication Protocol to tolerate network and server faults, and improve load balance and availability.</li>
+											</div>
+										</article>
+									</div>
+
+									<div class="features">
+										<article>
+											<a class="image fit thumb">
+												<img src="images/projects/441_cover.png" alt="" />
+											</a>
+											<div class="inner">
+												<h4>Highlight Moments Capture App with Explainable Image Assessment</h4>
+												<ul>
+													<li>Developed and deployed an android app in Kotlin for automatic highlight capture with Django backend and based on SAMP-Net model for aesthetic image scoring.</li>
+											</div>
+										</article>
+									</div>
+
+									<div class="features">
+										<article>
+											<a class="image fit thumb">
+												<img src="images/projects/485_cover.png" alt="" />
+											</a>
+											<div class="inner">
+												<h4>Online Social Media Platform</h4>
+												<ul>
+													<li>Developed an Instagram-like website with posts, comments, and follows in Python with SQLite3 database and Flask backend and built client-side dynamic pages on the frontend using React.js.</li>
+											</div>
+										</article>
+									</div>
+
+									<div class="features">
+										<article>
+											<a class="image fit thumb">
+												<img src="images/projects/483_cover.png" alt="" />
+											</a>
+											<div class="inner">
+												<h4>Compiler Construction</h4>
+												<ul>
+													<li>Designed a 64-bit end-to-end compiler in Rust using lexical analysis to support multiple data types, binary arithmetic, conditions,
+														mutable arrays, function declarations and calls, and assembly code generation.</li>
+											</div>
+										</article>
+									</div>
+
+									<div class="features">
+										<article>
+											<a class="image fit thumb">
+												<img src="images/projects/442_cover.png" alt="" />
 											</a>
 											<div class="inner">
 												<h4>Automatic Image Colorization with CNN and GAN</h4>
@@ -235,8 +333,10 @@
 										</article>
 									</div>
 								</div>
-						<!-- Four -->
-							<section id="four">
+							</section>
+
+						<!-- Five -->
+							<section id="five">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Feel Free to leave your message here!</p>
